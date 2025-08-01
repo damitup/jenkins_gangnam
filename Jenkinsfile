@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Prepare'){
             steps {
-                git credentialsId: 'MHS',
+                git credentialsId: 'HD',
                     branch: 'main',
                     url: 'https://github.com/damitup/jenkins_gangnam.git'
             }
